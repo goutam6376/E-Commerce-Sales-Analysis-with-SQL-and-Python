@@ -1,31 +1,49 @@
-# E-commerce Data Analysis
+# 📦 E-commerce Sales Analysis
 
-## Project Objective
-This project performs an exploratory data analysis on a public Brazilian e-commerce dataset to understand key business metrics and trends.
+## 🎯 Project Objective
+This project explores a public Brazilian e-commerce dataset to extract key business insights through **exploratory data analysis (EDA)**. The focus is on understanding customer behavior, sales trends, and category-level performance.
 
-## Data Source
-The dataset used in this project is the Olist Store Dataset, which is publicly available on Kaggle. It contains information about orders, customers, products, sellers, and reviews from orders made on Olist, the largest department store in Brazilian marketplaces.
+---
 
-## Tools and Libraries Used
-*   **Python**: Programming language
-*   **pandas**: Data manipulation and analysis
-*   **matplotlib** and **seaborn**: Data visualization
-*   **sqlite3**: For creating and querying an in-memory SQL database
-*   **SQL**: For data extraction and aggregation
-*   **Google Colab**: Development environment
+## 📊 Data Source
+**Dataset:** [Olist Store Dataset on Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 
-## Analysis Performed
-The notebook includes the following analyses:
-*   Loading and inspecting the datasets.
-*   Creating an in-memory SQLite database to perform SQL queries on the data.
-*   Analyzing the geographical distribution of customers by state.
-*   Identifying the top 10 product categories by revenue share.
-*   Analyzing the monthly order volume in 2018.
-*   Identifying the top 3 customers by yearly spending.
-*   Calculating the year-over-year growth rate in total sales.
+Olist is the largest department store in Brazilian marketplaces. The dataset includes:
 
-## How to Run the Notebook
-1.  Clone the repository or download the notebook file (`.ipynb`).
-2.  Upload the notebook to Google Colab.
-3.  Ensure the dataset CSV files are available in the Colab environment (e.g., by uploading them or mounting Google Drive).
-4.  Run the cells sequentially to execute the analysis.
+- 🛒 Orders and order items  
+- 👤 Customers  
+- 🧾 Reviews  
+- 🎁 Products  
+- 🧑‍💼 Sellers  
+
+---
+
+## 🛠️ Tools & Libraries Used
+- **Python** 🐍 — Main programming language  
+- **pandas** — Data manipulation  
+- **matplotlib** & **seaborn** — Data visualization  
+- **sqlite3** — In-memory SQL database  
+- **SQL** — Querying and aggregations  
+- **Google Colab** — Development environment
+
+---
+
+## 📈 Analysis Overview
+The notebook covers the following key steps:
+
+- ✅ Load and inspect the datasets  
+- 🧠 Create in-memory SQLite DB for flexible SQL queries  
+- 🌎 Analyze customer distribution by **state**  
+- 💸 Find **top 10 product categories** by revenue  
+- 📆 Analyze **monthly order volume** for 2018  
+- 🏆 Identify **top 3 customers** by yearly spending  
+- 📈 Calculate **year-over-year (YoY) growth** in total sales  
+
+---
+
+## 🚀 How to Run This Notebook
+
+1. **Clone** the repository or **download** the `.ipynb` file.
+2. Open the notebook in [Google Colab](https://colab.research.google.com/).
+3. Make sure the dataset files are uploaded or accessible (via Google Drive or manually).
+4. Run each cell **sequentially** to see the analysis results.
